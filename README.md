@@ -3,6 +3,12 @@
 Projeto realizado como teste técnico.
 Essa aplicação é uma front-end desenvolvida para interagir com uma API RESTful que exige posts de um blog e seus comentários, além do nome e contato dos escritores do blog.
 
+##
+
+Confira a aplicação: 
+
+https://main.dsqkke435l193.amplifyapp.com/
+
 ## Funcionalidades
 
 A exibição dos posts, realizada por um componente utilizando fetch para fazer a requisição na API. Ao clicar no icone de comentários, são exibidos os comentários e o email de quem realizou o mesmo, clicando novamente no icone de comentário, eles param de ser exibidos. Dentro do corpo dos posts, também é exibida uma imagem que vem de uma API Rest de fotos de gatos. Quando clica no nome do autor do post, é acessada a página dos escritores, e surge um botão de home no header para voltar a página inicial.
