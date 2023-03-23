@@ -5,5 +5,5 @@
 @layer base {
   html {
     @apply font-serif bg-stone-400;
-  }
+  }  
 }

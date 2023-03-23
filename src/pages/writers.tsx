@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <>
+        <div className="min-h-screen flex flex-col">
             <header className="w-full bg-slate-700 h-24 top-0 fixed flex justify-around items-center">
                 <p className="text-5xl text-slate-400 cursor-pointer font-bold">
                     Cat Blog
@@ -25,6 +25,6 @@ export default function Home() {
             </header>
             <Writers />
             <Footer author={"João Paulo da Silva"} />
-        </>
+        </div>
     );
 }

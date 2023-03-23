@@ -21,7 +21,10 @@ export default function Home() {
               <p className="text-5xl text-slate-400 cursor-pointer font-bold">
                   Cat Blog
               </p>
-              <a href="https://github.com/jotasilvadev" target={'_blank'}>
+              <a
+                  href="https://github.com/jotasilvadev/test-tecnico-blog"
+                  target={"_blank"}
+              >
                   <FaGithub className="text-4xl transition ease-in-out duration-700 text-slate-400 hover:text-orange-200" />
               </a>
           </header>

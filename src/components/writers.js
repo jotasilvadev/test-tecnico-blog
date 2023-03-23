@@ -12,7 +12,7 @@ function Writers() {
     }, []);
 
     return (
-        <div className="mt-28 flex flex-col w-full items-center">
+        <div className="mt-28 flex flex-col w-full items-center grow">
             <ul className="flex flex-col p-5">
                 {users.map((user) => (
                     <li
