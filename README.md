@@ -1,38 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blog Teste Técnico
 
-## Getting Started
+Projeto realizado como teste técnico.
+Essa aplicação é uma front-end desenvolvida para interagir com uma API RESTful que exige posts de um blog e seus comentários, além do nome e contato dos escritores do blog.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+A exibição dos posts, realizada por um componente utilizando fetch para fazer a requisição na API. Ao clicar no icone de comentários, são exibidos os comentários e o email de quem realizou o mesmo, clicando novamente no icone de comentário, eles param de ser exibidos. Dentro do corpo dos posts, também é exibida uma imagem que vem de uma API Rest de fotos de gatos. Quando clica no nome do autor do post, é acessada a página dos escritores, e surge um botão de home no header para voltar a página inicial.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Ferramentas utilizadas
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Next.JS - https://nextjs.org/
+- Tailwind - https://tailwindcss.com/
+- React.JS - https://react.dev/
+- React Icons - https://react-icons.github.io/react-icons
+- AWS Amplify - https://aws.amazon.com/pt/amplify/
+- CATAAS - https://cataas.com/#/
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Planejamento
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Passo 1 > Criação do componente que iria dar fetch na Api fornecida.
+- Passo 2 > Página inicial dos posts.
+- Passo 3 > Botão de mostrar e esconder os comentários.
+- Passo 4 > Página com os escritores.
+- Passo 5 > Estilização dos componentes.
+- Passo 6 > Componente que busca as imagens de gato para melhorar o visual dos posts.
+- Passo 7 > Refatoração.
+- Passo 8 > Deploy.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Decisões tomadas no processo
 
-## Learn More
+- Next.js como framework.
+- Tailwind como biblioteca para estilização.
+- Paleta de cores Slate & Stone do Tailwind.
+- Layout pensado no mobile-first.
+- Uso da API Rest "cat as a service".
+- Deploy na aplicação na AWS Amplify.
 
-To learn more about Next.js, take a look at the following resources:
+### Para rodar o projeto no seu computador
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clonar o repositório ou baixar o código.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Abrir o terminal e usar os comando:
+- npm install
+- npm run dev
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Screenshot Cat Blog](https://i.ibb.co/j4CRmxn/Whats-App-Image-2023-03-22-at-23-44-03.jpg)
