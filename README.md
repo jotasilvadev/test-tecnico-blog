@@ -44,8 +44,22 @@ A exibição dos posts, realizada por um componente utilizando fetch para fazer 
 
 ### Para rodar o projeto localmente:
 
-- git clone https://github.com/jotasilvadev/test-tecnico-blog.git
-- npm i
-- npm run dev
+**1. Clone o repositório**
+
+```bash
+git clone [https://github.com/mckaywrigley/chatbot-ui.git](https://github.com/jotasilvadev/test-tecnico-blog.git)
+```
+
+**2. Instale as dependencias**
+
+```bash
+npm i
+```
+
+**3. Run App**
+
+```bash
+npm run dev
+```
 
 ![Screenshot Cat Blog](https://i.ibb.co/j4CRmxn/Whats-App-Image-2023-03-22-at-23-44-03.jpg)
