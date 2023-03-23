@@ -17,7 +17,7 @@ export default function Home() {
               <meta name="author" content="João Paulo da Silva"></meta>
               <link rel="icon" href="/favicon.ico" />
           </Head>
-          <header className="w-full bg-slate-700 h-24 top-0 fixed flex justify-around items-center">
+          <header className="w-full bg-slate-700/90 h-24 top-0 fixed flex justify-around items-center backdrop-blur">
               <p className="text-5xl text-slate-400 cursor-pointer font-bold">
                   Cat Blog
               </p>
