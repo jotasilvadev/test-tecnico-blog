@@ -42,12 +42,10 @@ A exibição dos posts, realizada por um componente utilizando fetch para fazer 
 - Uso da API Rest "cat as a service".
 - Deploy na aplicação na AWS Amplify.
 
-### Para rodar o projeto no seu computador
+### Para rodar o projeto localmente:
 
-Clonar o repositório ou baixar o código.
-
-Abrir o terminal e usar os comando:
-- npm install
+- git clone https://github.com/jotasilvadev/test-tecnico-blog.git
+- npm i
 - npm run dev
 
 ![Screenshot Cat Blog](https://i.ibb.co/j4CRmxn/Whats-App-Image-2023-03-22-at-23-44-03.jpg)
