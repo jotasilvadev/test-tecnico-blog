@@ -1,7 +1,7 @@
 # Blog Teste Técnico
 
 Projeto realizado como teste técnico.
-Essa aplicação é uma front-end desenvolvida para interagir com uma API RESTful que exige posts de um blog e seus comentários, além do nome e contato dos escritores do blog.
+Essa aplicação é uma front-end desenvolvida para interagir com uma API RESTful que exibe posts de um blog e seus comentários, além do nome e contato dos escritores do blog.
 
 ##
 
