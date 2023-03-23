@@ -55,7 +55,7 @@ function Post(props) {
 
     return (
         <div className="w-4/5 sm:w-3/4 lg:w-2/4 p-3 m-1 rounded-xl bg-stone-600  shadow-stone-800 shadow-md">
-            <h2 className="bg-stone-500 rounded-t-xl text-slate-700 p-3 text-xl uppercase ">
+            <h2 className="bg-stone-500 rounded-t-xl text-slate-900 font-sans p-3 text-xl uppercase font-semibold">
                 {props.post.title}
             </h2>
             <div className="bg-stone-400 text-justify rounded-b-xl text-slate-600 flex p-3 items-center gap-x-3">
